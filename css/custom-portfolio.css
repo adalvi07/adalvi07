@@ -64,8 +64,7 @@ b,strong{
 /*.........................................................
 /* responsive */
 @media only screen 
-and (min-device-width:769px) 
-and (-webkit-min-device-pixel-ratio: 1){
+and (min-device-width:769px) {
     h1.tagline{
     color: #fff;
     font-size: 230%;
