@@ -90,6 +90,12 @@ hr{
 #spacer2{
     margin-top: 7%;
 }
+#icon-small{
+    width:12%;
+    height:12%;
+    margin-bottom: 3%;"
+}
+
 
 /*.........................................................
 /* responsive */
@@ -476,8 +482,10 @@ and (max-device-width: 500px){
     border-bottom: 6px solid #fcb801;
     text-align: center;
 }
-.btn-round{
-
+#icon-small{
+    width: 20%;
+    height: 20%;
+    margin: 10% 0;
 }
 
 }
