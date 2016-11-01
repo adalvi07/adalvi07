@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="home page" content="">
     <meta name="ameeta dalvi" content="">
 
@@ -18,9 +18,11 @@
     <link href="css/custom-portfolio.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Montserrat:400,700|Roboto:400,500,700,900" rel="stylesheet">
+    
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700,800';' rel='stylesheet' type='text/css'>
-   
+    <!--Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,11 +30,12 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>
 
 <body>
 
-     <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -48,20 +51,11 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Work <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="Cluck-Project.html">Cluck</a>
-                            </li>
-                            <li>
-                                <a href="ORCA-Card-project.html">ORCA Card</a>
-                            </li>
-                            <li>
-                                <a href="Williams-Sonoma-project.html">Williams-Sonoma</a>
-                            </li>
-                        
-                        </ul>
+                    <li>
+                        <a href="index.html#UX-projects">Work</a>
+                    </li>                      
+                     <li>
+                        <a href="index.html#expertise">Process</a>
                     </li>
                     <li>
                         <a href="about-me.html">About</a>
@@ -77,6 +71,7 @@
     <div class="container">
 
         <!-- Page Heading -->
+    <section>
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="cluck-header">ORCA Card 
@@ -86,24 +81,27 @@
         </div>
         <!-- /.row -->
 
-        <!-- Portfolio Item Row -->
+        <!-- Portfolio Item Row -->           
         <div class="row">
-
-                <div class="col-md-5">  
+                <div class="col-md-5"> 
                     <div class="project-detail">
-                        <h6>Project Overview:</h6>
-                        <p>2-week sprint</p>
-                        <p>Team project</p>
-                        <p>Concept piece for ORCA Card, Washington</p>  
+                        <h4>Project</h4>
+                        <p>Concept iOS Application, 2-Week Sprint.</p>
+                        <h4>Client</h4>
+                        <p>ORCA, Puget Sound Transit.</p>
+                        <h4>Team</h4>  
+                        <p>Ameeta Dalvi, Diana Artalejo, Rob Sumner.</p> 
+                        <h4>Tools</h4> 
+                        <p>Axure, Omnigraffle, Sketch, Photoshop, Whiteboarding, Sketching.</p>
                     </div>
-                    <img class="ORCA-app" src="images/orca/ORCA.png" alt="ORCA app">
-                </div>             
+                        <img class="WS-app" src="images/orca/ORCA.png" alt="WS app">
+                </div>                     
                 
                 <!-- Overview -->
                 <div class="col-md-6">
-                        <h6>The Challenge:</h6>
-                        <p>The population boom in Seattle has led to significant increase in traffic. King County Metro System, through ORCA, facilitates the use of public transportation. The ORCA card is used for payment of fares for all major public transport in the Puget Sound Region. However, it lacks a mobile-friendly interface for users to access while commuting.</p>
-                        <h6>Our Solution:</h6>
+                        <h3>The Opportunity:</h3>
+                        <p>The population boom in Seattle has led to significant increase in traffic. King County Metro System, through ORCA, facilitates the use of public transportation. The ORCA card is used for payment of fares for all major public transport in the Puget Sound Region. However, it lacks a mobile-friendly interface for users to access and use while commuting.</p>
+                        <h3>Our Solution:</h3>
                         <p>My team and I built a concept iOS application for ORCA that will allow commuters to:
                             <ul>
                                 <li>Easily manage their accounts and add funds.</li>
@@ -111,7 +109,7 @@
                                 <li>Scan their phones as the ORCA card on the card reading machines.</li>
                             </ul>
                         </p>
-                        <h6>My Role:</h6>
+                        <h3>My Role:</h3>
                         <p>I collaborated with my team over User Research, Design flows and wireframes and Usability Testing. I was specifically responsible for:
                             <ul>
                                 <li>Studying the ORCA system and heuristic evaluation of their website.</li>
@@ -131,19 +129,31 @@
                     Our Process
                 </h2>
             </div>
-            <div class="col-md-12">
-                    <h3>RESEARCH:</h3>
-                    <p>We started our research studying established smart card systems in other metropolitan cities and why they were successful. We compared ORCA with other competitors (apps or sites people use for their commute) to pinpoint what is working or missing in the current system. Our next and most important step was to understand commuters’ real needs and behavior when interacting with ORCA system.</p>
-                    <p>We recruited participants through a screener and interviewed 14 individuals who frequently used ORCA for their commute. Through our open ended questions, we were able to identify their pain-points and unmet needs.</p>
+        </div>
+        <div class="row"  id="section-cluck">
+            <div class="col-md-5">
+                <img class="MVP" src="images/orca/competitive.png" alt="competitive and comparative analysis">
             </div>
-                    
             <div class="col-md-6">
-                <h3>PLANNING:</h3>
-                <p>The data points noted during the user interviews were grouped together using affinity diagrams. While we gathered some valuable insights through our affinity mapping, we decided to only develop the MVPs (minimum viable product) for this project due to the time constraint.</p>
+                    <h3>Research:</h3>
+                    <p>We started our research studying established smart card systems in other metropolitan cities and why they were successful. We compared ORCA with other competitors (apps or sites people use for their commute) to pinpoint what is working or missing in the current system. Our next and most important step was to understand commuters’ real needs and behavior when interacting with ORCA system.</p>
+                    <p>We recruited participants through a screener and interviewed 14 individuals who frequently used ORCA Card for their commute. Our open eneded interview questions focussed on understanding 
+                    <ul>
+                        <li>Their painpoints and unmet needs in the commute.</li>
+                        <li>Aspects that work well and the ones that would improve their travel experience.</li>
+                        <li>Explore additional features that would make the new app invaluable in their commute.</li>
+                    </ul>
+            </div>
+        </div>
+        <div class="row" id="section-cluck">
+            <div class="col-md-6">
+                <h3>Planning:</h3>
+                <p>The affinity diagrams helped us organize the many facts and ideas collected during user-interviews into natural relationships for further analysis. It also proved to be a useful tool in testing our assumptions. </p>
+                <p>While we gathered many valuable insights through our affinity mapping, we decided to only develop the MVPs (minimum viable product) for this project due to the time constraint.</p>
                 <h4>Minimum-Viable Product (MVP)</h4>
                 <p>
                     <ul>
-                        <li>Provide easy access to the account balance and allow users to add funds with the app.</li>
+                        <li>Provide easy access to the account balance at all times and allow users to add funds with the new app.</li>
                         <li>Help planning trips from start to end by tracking buses accurately and giving possible routes and directions</li>
                         <li>Use phone as ORCA card with M-ticket technology. </li>
                     </ul>
@@ -151,40 +161,41 @@
             </div>
             <div class="col-md-5">
                 <img class="affinity-ORCA" src="images/orca/affinity-ORCA.jpeg" alt="affinity diagram">
-        </div>
-        <div class="row">
+                <img class="MVP" src="images/orca/MVP.png" alt="MVP">
+            </div>
+
             <div class="col-md-6">
+                <h4>Proto-Persona</h4>
+                <p>I created a proto-persona based on our evaluated data to guide our design. </p>
                 <img class="persona-orca" src="images/orca/persona-orca.png" alt="Proto-persona">
             </div>
-            <div class="col-md-5">
-                <div class="persona-text">
-                    <h4>Proto-Persona</h4>
-                    <p>I developed a proto-persona using the affinity mapping data to guide our design. </p>
-                    <h4>Customer Journey Map</h4>
-                    <p>I also created a customer journey map that helped us find our persona’s pain-points during the commute and identify his unmet needs.</p>
-                </div>
+            <div class="col-md-6">
+                <h4>Customer Journey Map</h4>
+                    <p>Using the persona, I developed a customer journey map that helped us find our persona’s pain-points during the commute and identify unmet needs and opportunities. </p>
             </div>
-            <div class="col-md-12"> 
+            <div class="col-md-5" id="user-story">
+                <p><b>User-story</b></p>
+                <p>Harry is finishing his morning chores before leaving for work. He checks the bus schedule to leave accordingly. The bus arrival shows 10 minutes at his stop. He starts rushing things and when he gets to the bus stop, he sees a long line of people waiting for the bus. The bus is delayed again. When it finally arrives and Harry scans his ORCA card, it shows low funds. He has to start digging for change and ends up paying $10 for a single ride. He is also embarrassed to keep commuters waiting behind him. He is unable to load funds on his ORCA card in the bus and has to wait till he reaches work. When he finally reloads, it shows him a 48hr time lag before activation. Harry is so frustrated with the ORCA system.</p>
+            </div>
+            <div class="col-md-6"> 
                     <img class="cjm" src="images/orca/customer journey map-ORCA.png" alt="customer journey map">
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                    <h3>DESIGN</h3>
+        <div class="row" id="section-cluck">
+            <div class="col-md-6">
+                    <h3>Design</h3>
                     <h4>Design studio and sketches</h4>
                     <p>We held a design studio in our team to communicate our ideas and build on them to generate better concepts and framework for wireframes. While we together devised each layout strategy on whiteboard, I sketched the layouts we finalized on paper. This worked as blueprints for developing screens in Axure and kept everyone on the same page.</p>
+                    <img class="user-flow-ORCA" src="images/orca/ORCA-User_Flow.png" alt="User Flow">
             </div>
-            <div class="col-md-7">
-                 <img class="blueprints" src="images/orca/sketches.png" alt="Blueprints">
-            </div>
-            <div class="col-md-7">
-                <img class="user-flow-ORCA" src="images/orca/ORCA-User_Flow.png" alt="User Flow">
+            <div class="col-md-5">
+                 <img class="blueprints" src="images/orca/sketch-1-01.png" alt="Blueprints">
             </div>
         </div>
         
         <div class="row">   
             <div class="col-md-12">
-                    <h3>PROTOTYPE AND TESTING</h3>
+                    <h3>Prototyping and Testing</h3>
                     <p>We built our prototype in Axure. I developed the trip planning interface while my other teammate, Rob worked on the adding funds screens. Our teammate Diana performed usability testing for the team and communicated her findings to us which helped us redesign certain features for better navigation. </p>   
             </div>
             <div class="col-md-12">
@@ -223,13 +234,13 @@
                 </div>
                     <!--Prototype -->
                 <div col-md-12>
-                <div class="orca-prototype">
+                <div class="btn-round orca-prototype">
                     <a href="http://127.0.0.1:32767/start.html#p=home&g=1" target="_blank" class="read-btn">View Prototype</a>
                 </div> 
                 </div>               
             </div>
         </div>
-        <hr>
+
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">
@@ -237,11 +248,14 @@
                 </h2>
             </div>
             <div class="col-md-12">
-                    <p><b>Effective team collaboration:</b> At the start of the project, we built a functional plan which guided our communication throughout the project. We worked effectively as a team because we communicated our progress daily, supported new ideas and implemented each other's feedback to create stronger work.</p>
+                    <h4>Effective team collaboration:</h4>
+                    <p> At the start of the project, we built a functional plan which guided our communication throughout the project. We worked effectively as a team because we communicated our progress daily, supported new ideas and implemented each other's feedback to create stronger work.</p>
 
-                    <p><b>Designing for MVP:</b> Project's scope can get large and out of hand very quickly. To account for changes in design due to usability testing or limitation of time on a project, it is important to first define and develop the fundamental design objectives based on data. </p>
+                    <h4>Designing for MVP:</h4> 
+                    <p>Project's scope can get large and out of hand very quickly. To account for changes in design due to usability testing or limitation of time on a project, it is important to first define and develop the fundamental design objectives based on data. </p>
 
-                    <p><b>Design Studio:</b> Design studio is a highly interactive and effective method to build shared understanding of interface at the start of a design process. It helps team members reason their ideas with the team and give honest critique to strengthen design concepts.</p>
+                    <h4>Design Studio:</h4> 
+                    <p>Design studio is a highly interactive and effective method to build shared understanding of interface at the start of a design process. It helps team members reason their ideas with the team and give honest critique to strengthen design concepts.</p>
             </div>
         </div>
 

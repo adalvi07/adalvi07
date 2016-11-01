@@ -1,40 +1,55 @@
 html,
 body {
-    height: 100%;
-    font-family:'Open sans', Helvetica, Sans-serif;
-    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+}
+section{
+    padding: 8% 0;
 }
 /*<------------------------------------------------------->
 /* Heading and paragraph */
 
+.row{
+    margin: 0;
+}
+
 .title-header {
-    height: 80%;
-    background-image: url("image-1.png");
+    background-image: url("title-image-01-01.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: scroll;
     text-align: center;
+    border-bottom: 20px solid #fcb801;
+    width: 100%;
 }
 
 h2.page-header{
-    font-size: 180%;
-    font-weight: 600;
-    padding: 60px 0 20px 10px;
-    margin: 40px 0 20px 0;
-    border-bottom: 3px solid #fec343;
+    font-family:'Montserrat', Helvetica, Sans-serif;
+    font-size: 215%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 2%;
+    margin:8% 0 5% 0;
+    border-bottom: 6px solid #fcb801;
     text-align: center;
+    color: #2172b1;
 }
 
+
 h3{
-    font-size:140%;
-    font-weight: 600;
-    padding:20px 10px;
+    font-family:'Montserrat', Helvetica, Sans-serif;
+    font-size:160%;
+    font-weight: 700;
+    margin:0;
+    margin-bottom: 10px;
 }
+
 h4{
     font-size: 120%;
     font-weight: 600;
-    padding:15px 5px 0 10px;
+    margin-bottom: 1%;
     z-index: 100;
 }
 h5{
@@ -43,128 +58,166 @@ h5{
     z-index: 100;
 }
 h6{
-    font-size: 120%;
-    font-weight: 600;
+    font-family:'Montserrat', Helvetica, Sans-serif;
+    font-size: 140%;
+    font-weight: 700;
     padding: 5px 5px 3px 10px;
 }
 p{
-    padding: 5px 10px 5px 10px;
-    margin:0;
+    margin-bottom: 6%;
     font-size: 15px;
     text-align: justify;
+    line-height: 23px;
 }
-p,ul,li{
+ul{
+    margin-bottom: 6%;
+}
+li{
   font-size: 15px; 
-  padding-top: 7px; 
+  padding-top: 1%; 
 }
 
-b,strong{
-    font-weight: bolder;
+hr{
+    border: 3px solid #ddd;
+    opacity: 0.6;
+}
+#spacer{
+    margin-top:28%;
+}
+#spacer2{
+    margin-top: 7%;
 }
 /*.........................................................
 /* responsive */
 @media only screen 
 and (min-device-width:769px) {
+
     h1.tagline{
-    color: #fff;
-    font-size: 230%;
-    font-weight: 700;
-    text-align: center;
-    margin-top: 350px;
-    margin-bottom: 120px;
-    line-height: 1.7;
-    }
+        color: #2172b1;
+        font-size: 300%;
+        font-weight: 900;
+        text-align: center;
+        margin: 410px 0 40px 0;
+        line-height: 1.5;
+        letter-spacing: 1.3px;
+}
     .other-projects{
-    margin-left: 15%;
-    margin-right: 15%;
+        margin-left: 15%;
+        margin-right: 15%;
+}
+    h2.title-subhead{
+        font-family: 'Montserrat', Helvetica, Sans-serif;
+        font-size: 140%;
+        line-height: 1.5;
+        margin: 6% 0;
+        text-align: center;
 }
 }
 
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 768px) {
+
     h1.tagline{
-        color: #fff;
-        font-size: 150%;
-        margin-top: 50%;
+        color: #2172b1;
+        font-size: 180%;
+        margin-top: 300px;
+        margin-bottom: 10px;
         font-weight: 600;
         line-height: 1.5;
     }
-    h2.page-header, h3{
-        font-size: 120%;
-        font-weight: 600;
-        }
-    h4, h5, h6{
+     h2.title-subhead{
         font-size: 100%;
+        line-height: 1.5;
+        margin: 10% 5%;
+        text-align: justify;
+    }
+    h2.page-header, h3{
+        font-size: 160%;
+        font-weight: 700;
+        }
+    h3{
+        font-size: 130%;
+        margin-bottom: 4%;
+        font-weight: 600;
+    }
+    h4, h5{
+        font-size: 120%;
+        margin-bottom: 3%;
+        line-height: 1.4;
     }
     p, ul, li{
-        font-size: 90%;
+        font-size: 100%;
     }
+    p{
+    margin-bottom: 6%;
+}
   
 }
 
 /*<------------------------------------------------------->
 /* Navigation */
-
+.container>.navbar-collapse{
+    margin: 0 1%;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    margin-left: 0;
+}
 .navbar-inverse .navbar-brand {
-    color: #fec343;
-    font-size: 20px;
-    padding: 15px 15px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 18px;
 }
 .navbar-inverse .navbar-nav>li>a {
-    color: #fec343;
-    padding: 5px 15px 5px 15px;
+    color: #fff;
+    margin: 2%;
     text-align: right;
+    font-weight: bold;
+    font-size: 17px;
 }
-.navbar-inverse .navbar-nav>.active> a {
-    color: #fec343;
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #fcb801;
     background-color: transparent;
 }
-.navbar-inverse .navbar-nav>.active> a:focus {
+.navbar-inverse .navbar-nav>.active> a {
     color: #fff;
+    background-color: transparent;
+    font-weight: bold;
+}
+.navbar-inverse .navbar-nav>.active> a:focus {
+    color: #fcb801;
     background-color: inherit;
 }
 .navbar-inverse {
-    background-color: #221c18;
-    height: 55px;
-    border-color: 0.75px solid #221c18;
+    background-color: #2172b1;
+    height: 60px;
+    border-bottom: 2px solid #2172b1;
 }
-.navbar-nav>li>.dropdown-menu {
-    margin-top: 10px;
-    background-color: #221c18;
-    text-align: right;
-}
-.dropdown-menu>li>a {
-    color: #fec343;
-    text-align: right;
-}
-.dropdown-menu>li>a:hover {
-    color: #fff;
-    text-decoration: none; 
-    background-color: transparent;
-}
+
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #fff;
-  background-color: #221c18;
+  color: #fcb801;
+  background-color: #2172b1;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: transparent;
-    background-color: #221c18;   
+    background-color: #2172b1;   
 }
 .navbar-inverse .navbar-toggle {
     border-color: transparent;
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-    background-color: #221c18;
+    background-color: #2172b1;
     border-color: transparent;
+    color: #fcb801;
 }
+
 
 /*<------------------------------------------------------->
 /* Projects */
-
 
 .panel-body{
 	padding:0;
@@ -212,7 +265,7 @@ and (max-device-width : 768px) {
 }
 a.read-btn{
     background-color: #fff;
-    color: #fec343;
+    color: #2172b1;
     z-index: 100;
     text-align: center;
     display: inline-block;
@@ -241,17 +294,13 @@ a.btn:focus, a.btn:hover{
 }
 
 .col-md-6{
-    width: 60%;
-    padding-left: 15px;
-    margin-right:0;
+    width: 57%;
+  
 }
 .col-md-5 {
   padding:0px 30px 30px 5px; 
-  width:40%;
+  width:37%;
   height: auto;  
-}
-.single-line-text{
-    padding:20px 0px 30px 0;
 }
 .col-md-7{
     width: 50%;
@@ -264,11 +313,20 @@ a.btn:focus, a.btn:hover{
 @media only screen 
 and (min-device-width : 769px) 
 and (-webkit-min-device-pixel-ratio: 1){
-    .col-md-12, .col-md-6, .col-md-5, .col-md-7{
+    .col-md-12, .col-md-5{
         padding-left: 15px;
         padding-right: 15px;
         position: relative;
         float: left;
+    } 
+  }
+@media only screen 
+and (min-device-width : 769px) 
+and (-webkit-min-device-pixel-ratio: 1){
+    .col-md-5{
+        padding-left: 15px;
+        position: relative;
+        float: right;
     } 
   }
 
@@ -281,6 +339,7 @@ and (max-device-width : 768px) {
         padding-right: 15px;
         position: relative;
         float: left;
+
     }
     .persona{
         width: auto;
@@ -298,104 +357,125 @@ and (max-device-width : 768px) {
 
 /*<-------------------------------------------------------
 /* Cluck */
-.cluck-header {
-    font-size: 180%;
-    font-weight: 600;
-    padding: 60px 0 40px 0;
-    margin: 40px 0 40px 0;
-    border-bottom: 3px solid #fec343;
-    text-align: center;
-}
+
 .cluck-device{
-  padding:10px 40px 20px 20px;  
-  position: relative;
-  width: 100%;
-  height: auto; 
+    margin: 6% 0;  
+    position: relative;
+    width:100%;
+    height: auto;
+    float: left;
 }
 .cluck-app{
-  padding:40px 40px 10px 20px;  
-  position: relative;
-  width:100%;
-  height: auto; 
+    margin: 6% 0;  
+    position: relative;
+    width:100%;
+    height: auto;
+    float: left;
 }
 .research-sketch{
     width:100%;
     height: auto;
     position: relative;
-    margin: 20px;
-    border: 2px solid #ccc;
-
+    margin-right: 10%;
+    float: left;
 }
 .participant-design{
     padding-top:10px;
     width:100%;
 }
+
 .persona{
     max-width: 100%;
-    margin: 10px;
-    border: 2px solid #ccc;
-
+    margin-bottom: 6%;
+    border: 1px solid #ccc;
 }
 .affinity{
     max-width: 100%;
     height: auto;
-    margin: 20px 10px;
+    margin-bottom: 20%;
 }
 .research-analysis{
     width: 100%;
     height: auto;
-    margin: 40px 10px;
-    border: 1px solid #ccc;
+    margin-bottom:6%;
+    padding: 0;
 }
 .storyboard{
     max-width: 100%;
     height: auto;
-    margin: 20px 10px;
+    margin-top: 10%;
+
 }
+
 .sketches{
     max-width: 100%;
     height: auto;
     float: left;
-    margin: 20px 10px;
-    border: 2px solid #ccc;
-    
+    margin:0;
 }
 .whiteboard{
     max-width: 100%;
     height: auto;
-    margin:20px 10px; 
-    border: 2px solid #ccc;
-    
+    margin-bottom: 5%; 
 }
 .pasta-design{
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    padding: 5%;
+    margin-top: 15%;
+    float: left;
+}
+#section-cluck{
+    margin-bottom: 8%;
 }
 .testing-1{
-    padding:60px 20px 20px 10px;  
+    margin: 0;  
     position: relative;
     width:100%;
     height: auto;
 }
+
 @media only screen
 and (min-device-width: 768px){
     .cluck-prototype{
-    margin-left:18%;
+    margin: 5% 0 0 23%;
     position: relative;
     display: inline-block;
-    padding: 5%;
+    padding: 2%;
+}
+    .cluck-header {
+    font-family:'Montserrat', Helvetica, Sans-serif;
+    font-size: 300%;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 8% 0;
+    padding-bottom: 3%;
+    border-bottom: 6px solid #fcb801;
+    text-align: center;
 }
 }
 @media only screen
 and (max-device-width: 500px){
     .cluck-prototype{
-   
     margin-left: 30%;
     position: relative;
-    display: inline-block;
-    padding: 5%;
+    display: block;
+    padding: 2%;
+    margin: 10% 25%;
 }
+    .cluck-header {
+    font-family:'Montserrat', Helvetica, Sans-serif;
+    font-size: 200%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 25% 0 10% 0;
+    padding-bottom: 3%;
+    border-bottom: 6px solid #fcb801;
+    text-align: center;
+}
+.btn-round{
+
+}
+
 }
 /*<-------------------------------------------------------
 /* Carousel */
@@ -454,8 +534,7 @@ and (max-device-width: 500px){
 /* ORCA */
 
 .ORCA-app{
-    margin:40px 10px 20px 0;
-    padding:0px 10px 10px 10px;  
+    margin: 6% 0;  
     position: relative;
     width:100%;
     height: auto;
@@ -463,48 +542,56 @@ and (max-device-width: 500px){
 }
 
 .affinity-ORCA{
-    width:100%;
+    max-width: 100%;
     height: auto;
+    margin-bottom: 5%;
     position: relative;
-    padding: 30px 10px 0 10px;
 }
-.persona-orca{
-    max-width:100%;
+.MVP{
+    max-width: 100%;
     height: auto;
-    margin: 20px 10px;
+    margin:0;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+.persona-orca{
+    max-width: 100%;
+    margin-bottom: 6%;
     border: 1px solid #ccc;
 }
 .cjm{
     width:100%;
     height: auto;
     position: relative;
-    padding: 20px 10px 30px 10px;
+    margin-bottom: 6%;
 }
-.persona-text{
-    padding: 50px 0 0 20px;
+#user-story{
+    margin-top: 11%;
 
 }
 
 .blueprints{
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    margin: 8% 3%;
     border: 1px solid #ccc;
-
 }
 .user-flow-ORCA{
-    width: 100%;
+    width: 110%;
     height: auto;
-    margin: 8% 3%;   
-    border:1px solid #ccc;
+    margin-top: 15%;
+    margin-left: -5%;
 }
 @media only screen
 and (min-device-width: 768px){
     .orca-prototype{
-    padding: 5%;
+    margin: 5% 0 5% 43%;
     position: relative;
     display: inline-block;
-    width: 100%;
+    padding: 2%;
+    display: inline-block;
+    font-weight: bolder;
+
 }
 }
 @media only screen
@@ -519,8 +606,7 @@ and (max-device-width: 500px){
 /* Williams-Sonoma */
 
 .WS-app{
-    margin:15px 10px 20px 0;
-    padding:20px 10px 10px 10px;  
+    margin: 6% 0; \]  
     position: relative;
     width:100%;
     height: auto;
@@ -530,49 +616,49 @@ and (max-device-width: 500px){
     width:100%;
     height: auto;
     position: relative;
-    padding: 30px 0 0 0px;
+    margin-right: 10%;
+    float: left;
 }
 .findings{
-    padding:70px 0 0 0px;
+    margin: 0;
 }
 .demographics{
-    margin-right: 70px;
+    width: 100%;
+    height: auto;
+    margin-top: 15%;
+    float: left;
 }
 .persona-WS{
-    width:100%;
-    height: auto;
-    padding: 7% 2%;
+    max-width: 100%;
+    margin-bottom: 6%;
 }
-.persona-text-WS{
-    padding: 105px 0 0 0px;
 
-}
 .CJM-WS{
     width:100%;
     height: auto;
     position: relative;
-    margin: 8% 0;
-    padding: 0 10px;
+    margin: 2% 0;
+    padding: 1% 0;
 }
 
 .site-map{
-    padding: 20px 10px;
-    width: 100%;
+    width: 110%;
     height: auto;
-    border: 1px solid #ccc;
-    margin: 8% 3%;
+    margin-bottom: 5%;
+    margin-left: -5%;
 }
 .user-flow-WS{
-    width:100%;
+    max-width: 100%;
     height: auto;
+    float: left;
+    margin:0;
     border: 1px solid #ccc;
-    margin: 8% 3%;
 }
 .sketches-WS{
     width: 100%;
-    height:auto; 
-    border: 1px solid #ccc;  
-    margin: 8% 3%;
+    height:auto;  
+    margin-top: 10%;
+    border: 1px solid #ccc;
 }
 .WS-button-wrapper{
     position: relative;
@@ -582,9 +668,12 @@ and (max-device-width: 500px){
     padding: 0 40% 0 40%
 }
 .concept-map{
-    margin:17% 3% 20% 3%;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 20%;
     border: 1px solid #ccc;
+
 }
 /*footer */
 .footer{
@@ -634,10 +723,9 @@ and (max-device-width: 500px){
     padding: 0 40%;
 }
 .btn-round{
-    color: #2f2e2c;
+    border: 3px solid #fcb801;
     background-color: #fff;
     border-radius: 100px;
-
 }
 .icon{
     width: 100px;
