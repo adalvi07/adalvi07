@@ -32,7 +32,7 @@ h2.page-header{
     letter-spacing: 1px;
     padding-bottom: 2%;
     margin:8% 0 5% 0;
-    border-bottom: 6px solid #fcb801;
+    border-bottom: 3px solid #fcb801;
     text-align: center;
     color: #2172b1;
 }
@@ -43,7 +43,7 @@ h3{
     font-size:160%;
     font-weight: 700;
     margin:0;
-    margin-bottom: 10px;
+    margin-bottom: 3%;
 }
 
 h4{
@@ -64,7 +64,7 @@ h6{
     padding: 5px 5px 3px 10px;
 }
 p{
-    margin-bottom: 6%;
+    margin-bottom: 4%;
     font-size: 15px;
     text-align: justify;
     line-height: 23px;
@@ -81,12 +81,16 @@ hr{
     border: 3px solid #ddd;
     opacity: 0.6;
 }
+#how{
+    text-align: center;
+}
 #spacer{
     margin-top:28%;
 }
 #spacer2{
     margin-top: 7%;
 }
+
 /*.........................................................
 /* responsive */
 @media only screen 
@@ -683,14 +687,15 @@ and (max-device-width: 500px){
 }
 /* 404 */
 .error-404{
-    padding-left: 10px;
     text-align: center;
+    font-weight: 700;
+    line-height: 1.7;
 
 }
 .jumbotron{
     background-color: #fec343;
     height: 450px;
-    padding: 150px 80px;
+    padding: 100px 80px;
 }
 /* About */
 .about-tagline{
@@ -738,10 +743,10 @@ and (max-device-width: 500px){
     width: auto;
     color: #2f2e2c;
     line-height: 2;
-    background-color: #fec343;
+    background-color: #fcb801;
     padding: 2% 10%;
     margin-left: 25%;
-    border: 2px solid #fec343;
+    border: 2px solid #fcb801;
     border-radius: 100px;
 }
 #resume{
@@ -749,7 +754,7 @@ and (max-device-width: 500px){
     font-size: 110%;
     font-weight: 600;
     width: auto;
-    color: #fec343;
+    color: #2172b1;
     line-height: 2;
     padding: 2% 8%;
     margin-top: 28%;
