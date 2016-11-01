@@ -100,7 +100,7 @@ hr{
 /*.........................................................
 /* responsive */
 @media only screen 
-and (min-device-width:769px) {
+and (min-device-width:768px) {
 
     h1.tagline{
         color: #2172b1;
@@ -126,7 +126,7 @@ and (min-device-width:769px) {
 
 @media only screen 
 and (min-device-width : 320px) 
-and (max-device-width : 768px) {
+and (max-device-width : 767px) {
 
     h1.tagline{
         color: #2172b1;
@@ -167,9 +167,7 @@ and (max-device-width : 768px) {
 
 /*<------------------------------------------------------->
 /* Navigation */
-.container>.navbar-collapse{
-    margin: 0 1%;
-}
+
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
     margin-left: 0;
 }
@@ -224,7 +222,13 @@ and (max-device-width : 768px) {
     border-color: transparent;
     color: #fcb801;
 }
-
+@media (max-width: 500px) {
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    margin-top: 2%;
+    margin-left: -5%;
+  
+}
+}
 
 /*<------------------------------------------------------->
 /* Projects */
@@ -591,7 +595,7 @@ and (max-device-width: 500px){
 .user-flow-ORCA{
     width: 110%;
     height: auto;
-    margin-top: 15%;
+    margin: 15% 0;
     margin-left: -5%;
 }
 @media only screen
