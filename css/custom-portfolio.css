@@ -158,6 +158,9 @@ and (max-device-width : 767px) {
     }
     p, ul, li{
         font-size: 100%;
+        line-height: 23px;
+
+
     }
     p{
     margin-bottom: 6%;
@@ -708,6 +711,18 @@ and (max-device-width: 500px){
     background-color: #fec343;
     height: 450px;
     padding: 100px 80px;
+}
+
+/* Williams-Sonoma */
+.galaxy-process{
+    width: 100%;
+    height:auto;
+    margin-bottom: 6%;
+}
+.galaxy-interior{
+    margin-top: 12%;
+    width: 100%;
+    height: auto;
 }
 /* About */
 .about-tagline{
