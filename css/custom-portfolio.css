@@ -172,6 +172,10 @@ and (max-device-width : 767px) {
         font-size: 160%;
         font-weight: 700;
         }
+    h2.page-header{
+        margin:20% 0 5% 0;
+
+    }
     h3{
         font-size: 130%;
         margin-bottom: 4%;
@@ -191,6 +195,7 @@ and (max-device-width : 767px) {
     p{
     margin-bottom: 6%;
 }
+
   
 }
 
@@ -351,6 +356,9 @@ a.btn:focus, a.btn:hover{
     text-align: center;
     font-size: 130%;
     font-weight: 600;
+}
+    a.read-btn{
+    font-size: 120%;
 }
 
     a.btn:focus, a.btn:hover{
@@ -556,6 +564,7 @@ and (max-device-width: 500px){
     padding-bottom: 3%;
     border-bottom: 6px solid #fcb801;
     text-align: center;
+    color: #0290ac;
 }
 #icon-small{
     width: 20%;
