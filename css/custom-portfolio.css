@@ -141,7 +141,7 @@ and (min-device-width : 320px)
 and (max-device-width : 767px) {
 
     .tagline{
-        color: #2172b1;
+        color: #0290ac;
         font-size: 250%;
         margin-top: 150px;
         margin-bottom: 10px;
@@ -370,7 +370,7 @@ a.btn:focus, a.btn:hover{
 }
     .title-btn{
     background-color: #fff;
-    color: #2172b1;
+    color: #0290ac;
     text-align: center;
     display: inline-block;
     width: 60%;
