@@ -291,24 +291,24 @@ and (max-device-width : 767px) {
 }
 .social{
     width: 57%;
-    height: 60px;
+    height: 120px;
     overflow: hidden;
-    margin: 2% 20% 2% 12%;
 }
 .social > a {
     width: 12%;
     height: 60px;
     display: block;
     background-repeat: no-repeat;
-    background-position: 0% 0%;
     float: left;
     overflow: hidden;
     background-color: transparent;
+    margin: 2%;
 }
 
 .social > a.email{
     background-image: url("email-icon.png");
     background-size: 80%;
+    margin-left: 12%;
 }
 .social > a.linkedin{
     background-image: url("Linkedin-Icon.png");
@@ -439,7 +439,7 @@ a.btn:focus, a.btn:hover{
 }
 .col-md-2{
     width: 40%;
-    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 /*.......................................*/
 @media only screen 
@@ -475,50 +475,46 @@ and (max-device-width : 768px) {
     }
  .social{
     width: 100%;
-    margin: 2% auto;
-    height: 120px;
+    height: 130px;
  }
- .social > a {
-    width: 15%;
-    height: 100%;
-    display: block;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    float: left;
-    overflow: hidden;
-    background-color: transparent;
-    margin-left: 20%;
-    margin-top: 8%;
-}
+
 
 .social > a.email{
     background-image: url("email-icon.png");
-    margin-left: 12%;
-    background-size: 55%;
+    background-size: 70%;
+    margin-left: 18%;
 }
 .social > a.linkedin{
     background-image: url("Linkedin-Icon.png");
     margin-left: 12%;
-    background-size: 50%;
+    background-size: 70%;
 }
 .social > a.resume{ 
     background-image: url("cv-icon.png");
-    background-size: 50%;
+    background-size: 70%;
+    margin-left: 12%;
 }
  .col-md-2{
-        width: 100%;
-    }
-    .persona{
-        width: auto;
-    }
-    .persona-orca{
-        width: auto;
-    }
-    .about-subhead{
+    width: 100%;
+    float: left;
+}
+.profile{
+    width: 100%;
+    position: relative;
+    float: left; 
+    margin-bottom: 5%;  
+}
+.persona{
+    width: auto;
+}
+.persona-orca{
+    width: auto;
+}
+.about-subhead{
     font-size: 120%;
     text-align: center justify;
     margin: 3%;
-    }
+}
 }
 
 
@@ -856,11 +852,11 @@ and (max-device-width: 500px){
 #connect{
     margin-top: 5%;
     text-align: center;
-    color: #0290ac;
+    color: #fcb801;
 }
 .email-contact{
     font-size: 120%;
-    color: #333;
+    color: #0290ac;
 }
 /* 404 */
 .error-404{
@@ -913,8 +909,7 @@ and (max-device-width: 500px){
 }
 .profile{
     width: 100%;
-    position: relative;
-    float: right;   
+    position: relative;   
     height: auto;
 
 }
@@ -958,8 +953,8 @@ and (min-device-width: 768px){
   
 }
     #about{
-        background-color:#fec343;
-    }
+    background-color:#fec343;
+}
 
     .about-tagline{
     text-align: center;
@@ -973,6 +968,6 @@ and (min-device-width: 768px){
     position: relative;
     display: block;
     float: left;
-    margin: 0;
+
 }
 }
