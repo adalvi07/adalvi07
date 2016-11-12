@@ -24,7 +24,6 @@ section{
     width: 100%;
     height: auto;
     padding-bottom: 8%;
-    margin-bottom: 5%;
 }
 
 h2.page-header{
@@ -307,17 +306,17 @@ and (max-device-width : 767px) {
 
 .social > a.email{
     background-image: url("email-icon.png");
-    background-size: 80%;
-    margin-left: 12%;
+    background-size: 90%;
+    margin: 9% 0 0 18%;
 }
 .social > a.linkedin{
     background-image: url("Linkedin-Icon.png");
-    margin-left: 12%;
+    margin: 8% 0 0 18%;
     background-size: 80%;
 }
 .social > a.resume{ 
     background-image: url("cv-icon.png");
-    margin-left: 12%;
+    margin: 8% 0 0 18%;
     background-size: 80%;
 }
 /* Learn more buttons 
@@ -376,7 +375,6 @@ a.btn:focus, a.btn:hover{
     display: inline-block;
     width: 60%;
     box-shadow:1px 8px 3px #ccc;
-
 }
 /*.......................................*/
 @media (max-width: 768px) {
@@ -394,7 +392,7 @@ a.btn:focus, a.btn:hover{
     font-weight: 600;
 }
     a.read-btn{
-    font-size: 120%;
+    font-size: 110%;
 }
 
     a.btn:focus, a.btn:hover{
@@ -481,17 +479,17 @@ and (max-device-width : 768px) {
 
 .social > a.email{
     background-image: url("email-icon.png");
-    background-size: 70%;
-    margin-left: 18%;
+    background-size: 95%;
+    margin-left: 25%;
 }
 .social > a.linkedin{
     background-image: url("Linkedin-Icon.png");
     margin-left: 12%;
-    background-size: 70%;
+    background-size: 85%;
 }
 .social > a.resume{ 
     background-image: url("cv-icon.png");
-    background-size: 70%;
+    background-size: 85%;
     margin-left: 12%;
 }
  .col-md-2{
@@ -614,7 +612,7 @@ and (min-device-width: 768px){
     padding-bottom: 3%;
     border-bottom: 6px solid #fcb801;
     text-align: center;
-    color: 
+    color: #0290ac;
 
 }
 }
@@ -753,7 +751,7 @@ and (max-device-width: 500px){
 @media only screen
 and (min-device-width: 768px){
     .orca-prototype{
-    margin: 5% 0 5% 43%;
+    margin: 5% 0 10% 43%;
     position: relative;
     display: inline-block;
     padding: 2%;
@@ -765,9 +763,11 @@ and (min-device-width: 768px){
 @media only screen
 and (max-device-width: 500px){
     .orca-prototype{
-        padding: 12%;
-        margin-left: 25%;
+        padding: 4%;
+        margin-left: 30%;
         display: inline-block;
+        margin-top: 6%;
+        margin-bottom: 6%;
     }
 }
 /*<-------------------------------------------------------
@@ -919,7 +919,8 @@ and (max-device-width: 500px){
     padding: 0 40%;
 }
 .btn-round{
-    border: 3px solid #fcb801;
+    border:0.5px solid #fcb801;
+    box-shadow:1px 8px 3px #adadad;
     background-color: #fff;
     border-radius: 100px;
 }
@@ -968,6 +969,7 @@ and (min-device-width: 768px){
     position: relative;
     display: block;
     float: left;
+    margin-bottom: 5%;
 
 }
 }
