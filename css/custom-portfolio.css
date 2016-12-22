@@ -15,7 +15,7 @@ section{
 }
 
 .title-header {
-    background-image: url("title-image-01-01.png");
+    background-image: url("title-image.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -268,11 +268,17 @@ and (max-device-width : 767px) {
 .panel-body{
 	padding:0;
     width: 100%;
-    border: 0.5px solid #d1d2d5;
 }
 
 .panel-default{
-    border-color: transparent;
+    border-color: 0;
+}
+.panel-default>.panel-heading{
+    color:#000;
+    background-color: #eee;
+    opacity: 0.6;
+    text-align: center;
+    border:transparent;
 }
 #UX-projects{
     margin-bottom: 8%;
