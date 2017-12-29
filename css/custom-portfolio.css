@@ -329,22 +329,23 @@ and (max-device-width : 767px) {
     float: left;
     overflow: hidden;
     background-color: transparent;
-    margin: 2%;
+    margin-top: 2%;
 }
 
 .social > a.email{
-    background-image: url("email-icon.png");
-    background-size: 50%;
-    margin-left: 2%;
+    width: 20%;
+    font-size: 120%;
+    margin-left: 0;
+    margin-top: 3%;
 }
 .social > a.linkedin{
     background-image: url("Linkedin-Icon.png");
-    margin-left: 32%;
+    margin-left: 30%;
     background-size: 38%;
 }
 .social > a.resume{ 
     background-image: url("cv-icon.png");
-    margin-left: 2%;
+    width: 12%;
     background-size: 38%;
 }
 /* Learn more buttons 
@@ -875,10 +876,13 @@ and (max-device-width: 500px){
 .footer{
     height: 100px;
     text-align: center;
-    margin: 5% auto;
+    margin-top: 6%;
+    margin-bottom: 1%;
+    padding-top: 3%;
+    border-top: 1px solid #ccc;
 }
 #connect{
-    margin-top: 5%;
+    margin: 3% auto;
     text-align: center;
     color: #fcb801;
 }
